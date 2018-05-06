@@ -30,7 +30,7 @@ community to lower the barrier of entry.
 So, this is a call for Clojure stacks. I'm looking for teams who have
 built web apps, frontend apps, mobile apps or anything else, and who
 are willing to take a look at their `project.clj` files, their
-`boot.build`s or `deps.edn`s and explain the reasoning of the choices
+`build.boot`s or `deps.edn`s and explain the reasoning of the choices
 reflected there, along with the rest of the system (the non-Clojure
 parts), and also the pros and cons of that particular combination of
 choices. Some bricks fit together better that others, and sharing this
@@ -106,6 +106,7 @@ post, or feel free to send a more free form explanation:
 - Final remarks
 
 It's a lot to ask, and not every organization will be OK with sharing
-all the details, so share as much as you can. Contributions are
-super-welcome in markdown by pull request to
+all the details, so share as much as you can. Descriptions of "failed"
+stacks may also be useful. Contributions are super-welcome in markdown
+by pull request to
 [this repo](https://github.com/stathissideris/www.clojurestacks.com).
