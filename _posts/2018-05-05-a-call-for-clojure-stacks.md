@@ -2,7 +2,7 @@
 layout: post
 author: Stathis Sideris
 title:  "A call for Clojure stacks"
-date:   2018-05-05 22:10:22 +0300
+date:   2018-05-06 22:10:22 +0300
 categories: misc
 ---
 
@@ -21,22 +21,23 @@ The community's responce is always an enthusiastic "do anything you
 like!" or "it's
 [decomplected](https://www.infoq.com/presentations/Simple-Made-Easy),
 it all plays well together, just pick something!". But there is no
-denying that the amount of choice is daunting to newcomers, and
-sometimes to the point of being completely off-putting. I still
+denying that the amount of choice is daunting to newcomers --
+ sometimes to the point of being completely off-putting. I still
 believe the fact that no "official" Clojure web framework has emerged
 is a good thing, but there is no denying that we could do more as a
 community to lower the barrier of entry.
 
 So, this is a call for Clojure stacks. I'm looking for teams who have
 built web apps, frontend apps, mobile apps or anything else, and who
-are willing to take a look at their `project.clj`s and explain the
-reasoning of the choices reflected there, along with the rest of the
-system (the non-Clojure parts), and also the pros and cons of that
-particular combination of choices. Some bricks fit together better
-that others, and sharing this knowledge can only help Clojure grow.
+are willing to take a look at their `project.clj` files, their
+`boot.build`s or `deps.edn`s and explain the reasoning of the choices
+reflected there, along with the rest of the system (the non-Clojure
+parts), and also the pros and cons of that particular combination of
+choices. Some bricks fit together better that others, and sharing this
+knowledge can only help Clojure grow.
 
-Here are some questions that you could use either as a template for
-your post, or feel free to send a more free form explanation:
+Here are some questions that you could use as a template for your
+post, or feel free to send a more free form explanation:
 
 - What is your app?
 
@@ -59,7 +60,12 @@ your post, or feel free to send a more free form explanation:
 
 - What libraries did you use and why?
 
-    The most important part of the description of the stack. ???
+    The most important part of the description of the stack. How do
+    you do REST? What about routing? How do you handle state in the
+    frontend? What do you use for templating (and can a designer
+    contribute)? How do you use spec? What do you use for logging
+    (local and remote)? How about monitoring? Any special libraries
+    for loading your config?
 
 - Are you pleased with your choice of libraries?
 
@@ -69,6 +75,10 @@ your post, or feel free to send a more free form explanation:
 
 - If there was zero development cost in replacing one of the libraries
   for a better/newer one, what replacement would you make and why?
+
+- Code architecture
+
+    Do you do MVC? How do you separate your code in namespaces?
 
 - What test methodologies do you use? What are your thoughts on your
   experience with it?
