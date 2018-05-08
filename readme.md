@@ -13,4 +13,4 @@ you can look there and figure out the format.
 
 The content of this site is under the
 [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
--- see this for a [non-lawyer friendly explanation](https://creativecommons.org/licenses/by-sa/4.0/).
+-- [non-lawyer friendly explanation](https://creativecommons.org/licenses/by-sa/4.0/).
