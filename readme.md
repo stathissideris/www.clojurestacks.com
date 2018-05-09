@@ -13,6 +13,16 @@ you can look there and figure out the format. The site uses Jekyll,
 refer to [the documentation](https://jekyllrb.com/docs/posts/) about
 writing posts.
 
-The content of this site is under the
+## License
+
+The content of this site's `_posts` folder is under the
 [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
--- [non-lawyer friendly explanation](https://creativecommons.org/licenses/by-sa/4.0/).
+-- see this [non-lawyer friendly explanation](https://creativecommons.org/licenses/by-sa/4.0/).
+
+The rest of the site (CSS, layouts etc) is under the MIT license (the
+[Hyde theme](https://github.com/poole/hyde) was used, which itself has
+an MIT license), with the exception of the logo which was created by
+Lluisa Iborra, retrieved from the
+[Noun Project](https://thenounproject.com/search/?q=lego%20brick&i=847219)
+and is under
+[Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode).
